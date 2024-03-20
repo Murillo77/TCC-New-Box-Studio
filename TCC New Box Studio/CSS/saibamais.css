@@ -1,0 +1,269 @@
+
+body{
+    margin: 0px;
+}
+
+/* Barra Nav  */
+
+.barranav{
+    display: flex;
+    justify-content: space-between;
+    background-color:black ;
+    padding: 20px;
+    box-shadow: rgb(107, 107, 107) 0px 3px 8px;
+    
+}
+
+.homeicon img{
+    width: 35px;
+    margin-top: 50px;
+
+}
+
+.login img{
+    width: 35px;
+    margin-top: 50px;
+}
+
+li{
+   list-style: none;
+   font-size: 20px;
+   
+}
+
+li a{
+   color: black;
+   text-decoration: none;
+
+}
+
+.bn2 li a:hover{
+    border: solid;
+    border-color: black;
+    border-top: 0px;
+    border-left:0px ;
+    border-right: 0px;
+}
+
+/* Fim barra nav */
+
+/* Incio conteudo */
+
+h6{
+    color: #FF7417;
+    font-size: 36px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.boxtext{
+    background-color: black;
+    box-shadow: rgb(48, 47, 47) 0px 0px 5px 2px;
+    width: 880px;
+    height: 230px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.titulo{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo1{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+
+}
+
+h2{
+    text-align: center;
+    font-family: math;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+.folder{
+      display: flex;
+      align-items: end;
+      justify-content: center;
+      background-size: 100%;
+      background-clip: content-box;
+      background-image: url(../Imagens/imgsm.png);
+      background-color: rgba(157, 24, 24, 0.406);
+      height: 900px;
+      width: 100%;
+}
+  
+.container2 li a:hover{
+      border: solid;
+      border-color: black;
+      border-top: 0px;
+      border-left:0px ;
+      border-right: 0px;
+}
+  
+.barranav2{
+      position: absolute;
+      background-color:#FF7417 ;
+      padding: 20px;
+      width: 540px;
+      box-shadow: rgb(107, 107, 107) 0px 3px 8px;
+      display: flex;
+      justify-content: space-evenly;
+}
+  
+.bn2{
+      display: flex;
+      justify-content: center;
+}
+
+.box1{
+    padding-top: 15px ;
+    width: 50%;
+    height: 1400px;
+    background-color: #EAEAEA;
+    box-shadow: #cdcdcd 1px 2px 10px;
+    border-radius:30px ;
+    margin: 15px;
+    margin-bottom: 200px;
+}
+
+.box1 img{
+    border-radius:10px ;
+    width: 300px;
+    height: 200px;
+}
+
+.figura1 figure{
+    display: flex;
+    align-items: center;
+}
+
+.figura2 figure{
+    display: flex;
+    align-items: center;
+}
+
+.figura3 figure{
+    display: flex;
+    align-items: center;
+}
+
+.figura4 figure{
+    display: flex;
+    align-items: center;
+}
+
+.figura5 figure{
+    display: flex;
+    align-items: center;
+}
+
+.figura6 figure{
+    display: flex;
+    align-items: center;
+}
+
+figcaption{
+    text-decoration: none;
+    font-size: 22px;
+    margin: 5px;
+}
+
+
+
+/* Fim Conteúdo */
+
+/* Icones de redes socias */
+
+.icones figure, figure img{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5px;
+    z-index: 100;
+    bottom: 15px;
+}
+
+/* Fim icones de redes sociais */
+
+/* Inicio Rodapé */
+
+footer{
+    background-color: black;
+    height: 350px;
+    width: 100%;;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#logo1{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 80px;
+}
+
+
+.col1 h3{
+    color: white;
+}
+
+.col1 p{
+    color: white;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col1 p :hover{
+    color: #FF7417;
+}
+
+.col1 img{
+    width: 30px;
+    margin: 0px 2px 0px 2px;
+}
+
+
+/* Fim Rodapé */

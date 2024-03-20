@@ -1,0 +1,269 @@
+body{
+    margin: 0%;
+}
+
+.navbar-brand{
+    background-color: black;
+}
+
+.container-fluid{
+    background-color: black;
+}
+.navbar navbar-dark bg-dark fixed-top{
+    background-color: black;
+}
+
+.bg-dark{
+    background-color: #FF7417;
+}
+
+/* INICIO CONTEUDO */
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin-top: 113px;
+    box-shadow: #FF7417 0px 1px 15px 5px;
+}
+
+.titulo h1{
+    color: #FF7417;
+    text-shadow: white 0px 2px;
+    font-size: 50px;
+    
+}
+
+.titulo h2{
+    color: white;
+}
+
+.box h1{
+    color: #FF7417;
+    text-shadow: rgb(0, 0, 0) 0px 2px;
+    font-size: 40px;
+    
+}
+
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+    transition: all 0.9s;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.caixa1{
+    background-color: #F5F5F5;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: #c7c5c5 0px 3px 5px 1px;
+    
+}
+
+.caixa2{
+    background-color:#F5F5F5;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: #c7c5c5 0px 3px 5px 1px;
+}
+
+.caixa3{
+    background-color:#F5F5F5;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: #c7c5c5 0px 3px 5px 1px;
+}
+
+.barra1{
+    background-color: black;
+    width: 300px;
+    height: 15px;
+    border-radius: 2px;
+}
+
+.barra2{
+    background-color: #FF7417;
+    width: 300px;
+    height: 12px;
+    border-radius: 2px;
+}
+
+h1{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 13px;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.cont2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.box{
+    background-color: #F5F5F5;
+    width: 800px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: #c7c5c5 0px 3px 5px 1px;
+}
+
+.linha1{
+  background-color: black;
+  width: 800px;
+  height: 15px;
+  border-radius: 2px;
+}
+
+.linha2{
+   background-color: #FF7417;
+    width: 800px;
+    height: 15px;
+    border-radius: 2px;
+}
+
+h4{
+    text-align: center;
+    
+    color: #000000;
+    margin-top: 30px;
+}
+
+h5{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.linha{
+    
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 70%;
+    height: 2px;
+    margin-left: 100px;
+}
+
+
+.tudo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.anuncio{
+  display: flex;
+  background-color: black;
+  width: 1000px;
+  height: 100px;
+  background-image: url(../Imagens/anuncio.png);
+  background-size: 100%;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+}
+
+.botao button{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    border: 0px;
+    background-color: #FF7417;
+    border-radius: 100px;
+}
+
+.botao button:hover{
+    background-color: #FF7417;
+    transition: 0.5s;
+    box-shadow: #ffffff 0px 0px 15px;
+}
+
+.botao button:active{
+    background-color: #a94807;
+}
+
+.botao{
+   display: flex;
+   align-items: center;
+   justify-content:end;
+}
+
+/* FIM CONTEUDO */
+
+/* Icones de redes socias */
+
+figure, figure img{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5px;
+    z-index: 100;
+    bottom: 15px;
+}
+
+/* Fim icones de redes sociais */
+
+/* Inicio Rodapé */
+
+footer{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#logo1{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 80px;
+}
+
+
+.col1 h3{
+    color: white;
+}
+
+.col1 p{
+    color: white;
+}
+
+.col1 p :hover{
+    
+    color: #FF7417;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col1 img{
+    width: 30px;
+    margin: 0px 2px 0px 2px;
+}
+
+/* Fim Rodapé */

@@ -1,0 +1,260 @@
+body{
+    margin: 0%;
+}
+
+
+/* conteudo */
+
+.tudo1{
+  display: flex;
+  position: absolute;
+}
+
+
+.circulo1{
+    display: flex;
+    
+}
+
+.circlar{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: -150px;
+    background-color: #FF7500;
+    width: 1000px;
+    height: 900px;
+    border-radius: 100%;  
+}
+
+.tudo2{
+  
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+
+.circulo2{
+   position: absolute;
+   display: flex;
+   top: 400px;
+   overflow-x: hidden;
+}
+
+.circpre{
+ 
+   margin-right: -100px;
+   background-color: black;
+   width: 1000px;
+   height: 900px;
+   border-radius: 100%;
+}
+
+.tudo3{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.circulo3{
+  position: absolute;
+  display: flex;
+  top: 950px;
+  
+}
+
+.circcin{
+  margin-right: 350px;
+  background-color: #F5F5F5;
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+}
+
+
+
+/* fim conteudo */
+
+/* Icones de redes socias */
+
+figure, figure img{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5px;
+    z-index: 100;
+    bottom: 15px;
+}
+
+/* Fim icones de redes sociais */
+
+/* Inicio Rodapé */
+
+footer{
+    background-color: black;
+    height: 350px;
+    width: 100%;;
+    margin-top: 500px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#logo1{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 80px;
+}
+
+
+.col1 h3{
+    color: white;
+}
+
+.col1 p{
+    color: white;
+}
+
+.col1 p :hover{
+  color: #FF7417;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col1 img{
+    width: 30px;
+    margin: 0px 2px 0px 2px;
+}
+
+/* Fim Rodapé */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  margin-top: 200px;
+  text-align: center;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.faqs-container {
+    margin-top: 100px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.faq {
+  background-color: #ffffff;
+  border: 1px solid #9FA4A8;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.faq.active::after, .faq.active::before {
+  color: #ffffff;
+  content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #ffffff;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #FF7500;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  display: block;
+}
+
+.faq-toggle .fa-chevron-down {
+  color: #83888E;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+

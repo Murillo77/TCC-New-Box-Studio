@@ -1,0 +1,278 @@
+body{
+    margin: 0%;
+    background-color: white;
+}
+
+/* CONTEUDO */
+
+.conteiner{
+    margin-top: 150px;
+}
+
+h1{
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+}
+
+.linha{
+  margin-bottom: 100px;
+  background-color: black;  
+  width: 500px; 
+  height: 1px;
+}
+
+.mandar{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: #F4F4F4;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 50px;
+}
+
+.mandar2{
+    display: flex;
+    justify-content: center;
+}
+
+.card1{
+    position: absolute;
+    margin-top: -5%;
+    background-color: #F4F4F4;
+    box-shadow: rgb(190, 190, 190) 0px 0px 1px 1px;
+    width: 430px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+.conteiner2{
+    margin-top: 300px;
+}
+
+h2{
+    text-align: center;
+    color: #FF7417;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    text-align: justify;
+    margin-left:30px ;
+    margin-right:30px ;
+}
+
+.card1 p{
+    text-align: justify;
+    margin-left:30px ;
+    margin-right:30px ;
+}
+
+.bola1{
+    position: absolute;
+}
+
+.bolinha1{
+    margin-left: 100px;
+    background-color:#ff74177f;
+    width: 710px;
+    height: 700px;
+    border-radius: 100%;
+}
+
+.bola2{
+    display: flex;
+    position: absolute;
+}
+
+.bolinha2{
+    margin-left: 150px;
+    background-color:#ff7417;
+    width: 210px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.bola3{
+    display: flex;
+    justify-content: center;
+}
+
+.bolinha3{
+    margin-right: 150px;
+    background-color:#ff7417;
+    width: 210px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.bola4{
+    display: flex;
+    justify-content: end;
+}
+
+.bolinha4{
+    position: absolute;
+    margin-right: 150px;
+    background-color:#FF7417;
+    width: 100px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.bola5{
+    display: flex;
+    justify-content: end;
+}
+
+.bolinha5{
+    position: absolute;
+    margin-right: 150px;
+    background-color:#D9D9D9;
+    width: 140px;
+    height: 130px;
+    border-radius: 100%;
+    margin: 40px;
+}
+
+.bola6{
+    display: flex;
+    justify-content: end;
+}
+
+.bolinha6{
+    position: absolute;
+    background-color:#000000;
+    width: 500px;
+    height: 490px;
+    border-radius: 100%;
+}
+
+.bola7{
+    display: flex;
+    justify-content: end;
+}
+
+.bolinha7{
+    position: absolute;
+    background-color:#FF7417;
+    width: 200px;
+    height: 190px;
+    border-radius: 100%;
+}
+
+.bola8{
+    display: flex;
+    justify-content: start;
+}
+
+.bolinha8{
+    position: absolute;
+    background-color:#D9D9D9;
+    width: 500px;
+    height: 490px;
+    border-radius: 100%;
+}
+
+.bola9{
+    display: flex;
+    justify-content: end;
+}
+
+.bolinha9{
+    position: absolute;
+    background-color:#FF7417;
+    width: 200px;
+    height: 190px;
+    border-radius: 100%;
+}
+
+.bola10{
+    display: flex;
+    justify-content: end;
+}
+
+.bolinha10{
+    position: absolute;
+    background-color:#FF7417;
+    width: 200px;
+    height: 190px;
+    border-radius: 100%;
+}
+
+/* FIM CONTEUDO */
+
+/* Icones de redes socias */
+
+figure, figure img{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5px;
+    z-index: 100;
+    bottom: 15px;
+}
+
+/* Fim icones de redes sociais */
+
+/* Inicio Rodapé */
+
+footer{
+    background-color: black;
+    height: 350px;
+    width: 100%;;
+    margin-top: 500px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#logo1{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 80px;
+}
+
+
+.col1 h3{
+    color: white;
+}
+
+.col1 p{
+    color: white;
+}
+
+.col1 p :hover{
+    
+    color: #FF7417;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col1 img{
+    width: 30px;
+    margin: 0px 2px 0px 2px;
+}
+
+/* Fim Rodapé */

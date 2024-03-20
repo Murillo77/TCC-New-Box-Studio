@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+}
+
+/* Barra Nav  */
+
+
+
+/* Fim barra nav */
+
+/* Inicio Conteúdo */
+
+
+h1{
+    text-shadow: #FF7417 1px 1px 1px;
+    margin-left:252px;
+    margin-top: 170px;
+}
+
+.caixa1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caixa2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: white;
+    box-shadow: rgb(192, 189, 189) 0px 1px 5px 1px;
+    width: 300px;
+    height: 380px;
+}
+
+.card p{
+    text-align: center;
+}
+
+.camisa1 img{
+    width: 230px;
+    margin-left: 60px;
+}
+
+.camisa2 img{
+    width: 230px;
+    margin-left: 40px;
+}
+
+.camisa3 img{
+    width: 180px;
+    margin-left: 65px;
+}
+
+.camisa4 img{
+    width: 290px;
+    margin-left: 10px;
+}
+
+.camisa5 img{
+    width: 270px;
+    margin-left: 20px;
+}
+
+.camisa6 img{
+    width: 300px;
+}
+
+.camisa7 img{
+    width: 200px;
+    margin-left: 65px;
+}
+
+.camisa8 img{
+    width: 280px;
+    margin-left: 15px;
+}
+
+.camisa9 img{
+    width: 220px;
+    margin-left: 45px;
+}
+
+.camisa10 img{
+    width: 260px;
+    margin-left: 30px;
+}
+
+.camisa11 img{
+    width: 260px;
+    margin-left: 30px;
+}
+
+h2{
+    text-shadow: #FF7417 1px 1px 1px;
+    margin-left:252px;
+    margin-top: 50px;
+}
+
+.caixa3{
+    margin-left: 238px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.comandar{
+   display: flex;
+   justify-content: end;
+}
+
+.punho img{
+    margin: 0px;
+    width: 400px;
+    margin-right: 30px;
+}
+
+/* Fim Conteúdo */
+
+/* Icones de redes socias */
+
+figure, figure img{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5px;
+    z-index: 100;
+    bottom: 15px;
+}
+
+/* Fim icones de redes sociais */
+
+/* Inicio Rodapé */
+
+footer{
+    background-color: black;
+    height: 350px;
+    width: 100%;;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#logo1{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 80px;
+}
+
+
+.col1 h3{
+    color: white;
+}
+
+.col1 p{
+    color: white;
+}
+
+.col1 p :hover{
+    
+    color: #FF7417;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col1 img{
+    width: 30px;
+    margin: 0px 2px 0px 2px;
+}
+
+/* Fim Rodapé */

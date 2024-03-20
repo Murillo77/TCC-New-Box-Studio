@@ -1,0 +1,205 @@
+body{
+    margin: 0px;      
+}
+
+
+/* Barra Nav  */
+
+body{
+    margin: 0%;
+}
+
+.navbar-brand{
+    background-color: black;
+}
+
+.container-fluid{
+    background-color: black;
+}
+.navbar navbar-dark bg-dark fixed-top{
+    background-color: black;
+}
+
+.bg-dark{
+    background-color: #FF7417;
+}
+
+/* Fim barra nav */
+
+/* inicio conteudo */
+
+.conteiner{
+width: 80%;
+}
+    .td{
+        background-color: #fcfcfc;
+        box-shadow: #dbdbdb 0px 5px 10px 10px; 
+        width: 1500px;
+        height: 1800px;
+        justify-content: center;
+        display: flex;
+        margin-left: 200px;
+    }
+
+.cont{
+    display: flex;
+    justify-content: center;
+  margin: 20px; 
+}
+.circulo{
+    width: 46px;
+    height: 45px;
+    background-color:#FF7417 ;
+    border-radius: 50%;
+    margin-left: -1px;
+
+}
+    .retangulo{
+        margin-top: 15px;
+        width: 520px;
+        height: 17px;
+        background-color:black;
+        margin-left: -1px;
+           
+}
+.circulo2{
+    width: 46px;
+    height: 45px;
+    background-color:#FF7417 ;
+    border-radius: 50%;
+    margin-left: -1px;
+
+}
+    .retangulo1{
+        margin-top: 15px;
+        width: 520px;
+        height: 17px;
+        background-color:black;
+        margin-left: -1px;
+           
+}
+.circulo1{
+    width: 46px;
+    height: 45px;
+    background-color:#FF7417 ;
+    border-radius: 50%;
+    margin-left: -1px;
+}
+.circ{
+    width: 37px;
+    height: 37px;
+    background-color: #ffffff;
+    border-radius: 33px;
+    margin-left: 4px;
+    margin-top: 4px
+    
+}
+
+video{
+    height: 417px;
+    width: 282px;
+    margin: 50px;
+    
+}
+
+      
+.vid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.vid3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.texto{
+    font-family: "font-family:courier,arial,helvetica";
+    font-size: 25px;
+    text-align: justify;
+}
+/* Fim Conteúdo */
+
+/* Icones de redes socias */
+
+figure, figure img{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5px;
+    z-index: 100;
+    bottom: 15px;
+}
+
+/* Fim icones de redes sociais */
+
+/* Inicio Rodapé */
+
+footer{
+    margin-top: 300px;
+    background-color: black;
+    height: 400px;
+    width: 100%;;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#logo1{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 80px;
+}
+
+
+.col1 h3{
+    color: white;
+}
+
+.col1 p{
+
+    color: white;
+}
+
+.col1 p :hover{
+    
+    color: #FF7417;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col1 img{
+    width: 30px;
+    margin: 0px 2px 0px 2px;
+}
+
+
+/* Fim Rodapé */

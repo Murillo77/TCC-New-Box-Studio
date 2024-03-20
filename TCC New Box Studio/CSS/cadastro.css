@@ -1,0 +1,341 @@
+/* Barra Nav  */
+
+.barranav{
+  display: flex;
+  justify-content: space-between;
+  background-color:black ;
+  padding: 20px;
+  box-shadow: rgb(107, 107, 107) 0px 3px 8px;
+  
+}
+
+.barranav2{
+  position:absolute;
+  background-color:#FF7417 ;
+  padding: 20px;
+  width: 540px;
+  box-shadow: rgb(107, 107, 107) 0px 3px 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bn2{
+  display: flex;
+  justify-content: center;
+}
+
+.homeicon img{
+  width: 35px;
+  margin-top: 50px;
+
+}
+
+.login img{
+  width: 35px;
+  margin-top: 50px;
+}
+
+li{
+ list-style: none;
+ font-size: 20px;
+ 
+}
+
+li a{
+ color: black;
+ text-decoration: none;
+
+}
+
+/* Fim barra nav */
+
+/* CSS reset */
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+  
+  body{
+    margin:10px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  /* esconde as ancoras da tela */
+  a.links{
+    display: none;
+  }
+  
+  /* content que contem os formulários */
+  .content{
+    width: 500px;
+    margin: 0px auto;
+    position: relative; 
+  }
+  
+  /* formatando o cabeçalho dos formulários */
+  h1{
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, rgba(238, 154, 44, 0) 0%, rgb(253, 144, 60) 20%,rgb(255, 150, 45) 53%,rgba(255, 151, 41, 0.8) 79%,rgba(255, 146, 38, 0) 100%); 
+    background: linear-gradient(left, rgba(0, 0, 0, 0) 0%,rgba(255, 255, 255, 0.8) 20%,rgb(251, 251, 251) 53%,rgba(255, 255, 255, 0.8) 79%,rgba(154, 147, 189, 0) 100%); 
+  }
+  
+  p{
+    margin-bottom:15px;
+  }
+  p:first-child{
+    margin: 0px;
+  }
+  label{
+    color: #000000;
+    position: relative;
+  }
+  
+  /**** advanced input styling ****/
+  /* placeholder */
+  ::-webkit-input-placeholder  {
+    color: #e3dede; 
+    font-style: italic;
+  }
+  input:-moz-placeholder,
+  textarea:-moz-placeholder{
+    color: #c3c3c3;
+    font-style: italic;
+  } 
+  input {
+    outline: none;
+  }
+  
+  input:not([type="checkbox"]){
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;  
+    border: 1px solid #bbbaba;
+    
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  /*estilo do botão submit */
+  input[type="submit"]{
+    width: 100%!important;
+    cursor: pointer;  
+    background: #ffffff;
+    padding: 8px 5px;
+    color: #000000;
+    font-size: 20px;  
+    border: 1px solid rgb(139, 134, 134); 
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px rgba(47, 46, 46, 0.165);
+    
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    transition: all 0.2s linear;
+  }
+  input[type="submit"]:hover{
+    background:  rgb(254, 126, 62);
+  }
+  
+  /*marcando os links para mudar de um formulário para outro */
+  .link{
+    position: absolute;
+    background: #ffffff;
+    color: #616161;
+    left: 0px;
+    height: 20px;
+    width: 438px;
+    padding: 5px 30px 20px 30px;
+    font-size: 16px;
+    text-align: right;
+    border-top: 1px solid #ffffff;
+  
+    -webkit-border-radius: 0 0  5px 5px;
+    border-radius: 0 0  5px 5px;
+  }
+  .link a {
+    font-weight: bold;
+    background: #ffffff;
+    padding: 6px;
+    color: rgb(239, 123, 0);
+    margin-left: 10px;
+    border: 1px solid rgb(253, 253, 253);
+  
+    -webkit-border-radius: 4px;
+    border-radius: 4px;  
+  
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s  linear;
+  }
+  .link a:hover {
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid rgb(252, 252, 252);
+  }
+  
+  /* estilos para para ambos os formulários */
+  #cadastro, 
+  #login{
+    position: absolute;
+    top: 0px;
+    width: 88%; 
+    padding: 18px 6% 60px 6%;
+    margin: 0 0 35px 0;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(55, 55, 55, 0.8);
+    
+    -webkit-box-shadow: 5px;
+    border-radius: 5px;
+    
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+  
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
+  
+  #paracadastro:target ~ .content #cadastro,
+  #paralogin:target ~ .content #login{
+    z-index: 2;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+  
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+  }
+  #registro:target ~ .content #login,
+  #paralogin:target ~ .content #cadastro{
+    -webkit-animation-name: fadeOutLeft;
+    animation-name: fadeOutLeft;
+  }
+  
+  /*fadeInLeft*/
+  @-webkit-keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /*fadeOutLeft*/
+  @-webkit-keyframes fadeOutLeft {
+    0% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+    }
+  }
+  
+  @keyframes fadeOutLeft {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+  }
+
+  /* Icones de redes socias */
+
+figure, figure img{
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+
+}
+
+.icones{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 5px;
+  z-index: 100;
+  bottom: 15px;
+}
+
+/* Fim icones de redes sociais */
+
+/* Inicio Rodapé */
+
+footer{
+  background-color: black;
+  height: 350px;
+  width: 100%;;
+}
+
+.rodape{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#logo1{
+  margin-left: 5px;
+  margin-top: 15px;
+  width: 80px;
+}
+
+
+.col1 h3{
+  color: white;
+}
+
+.col1 p{
+  color: white;
+}
+
+.col1 a{
+  text-decoration: none;
+  color: white;
+}
+
+.col1 img{
+  width: 30px;
+  margin: 0px 2px 0px 2px;
+}
+
+/* Fim Rodapé */

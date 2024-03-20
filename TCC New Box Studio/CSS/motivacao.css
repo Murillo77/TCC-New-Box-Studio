@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    background-color:white;
+}
+
+/* CONTEUDO */
+
+h1{
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    font-size: 33px;
+}
+
+.mandar{
+    display:flex;
+    justify-content: center;
+}
+
+.tudo1{
+   display: flex;
+   justify-content: center;
+   margin-right: 500px;
+}
+
+.tudo2{
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.balao{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #F3F3F3;
+   box-shadow: #bcbcbc 1px 2px 5px 0px;
+   width: 300px;
+   height: 260px;
+   border-radius: 90%;
+}
+
+.balao p{
+    font-size: 18px;
+}
+
+.linha1{
+    background-color: #FF7417;
+    width:100% ;
+    height: 2px;
+}
+
+.linha2{
+    background-color: #000000;
+    width:100% ;
+    height: 2px;
+}
+
+.bolinhas{
+    display: flex;
+    align-items: end;
+    margin-left: -60px;
+}
+
+.bolinha1{
+  background-color: #F3F3F3;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.bolinha2{
+    background-color: #F3F3F3;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.bolinha3{
+    background-color: #F3F3F3;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+/* FIM CONTEUDO */
+
+/* Icones de redes socias */
+
+figure, figure img{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5px;
+    z-index: 100;
+    bottom: 15px;
+}
+
+/* Fim icones de redes sociais */
+
+/* Inicio Rodapé */
+
+footer{
+    margin-top: 200px;
+    background-color: black;
+    height: 1000px;
+    width: 100%;;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#logo1{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 80px;
+}
+
+
+.col1 h3{
+    color: white;
+}
+
+.col1 p{
+    color: white;
+}
+
+.col1 p :hover{
+    
+    color: #FF7417;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col1 img{
+    width: 30px;
+    margin: 0px 2px 0px 2px;
+}
+
+/* Fim Rodapé */

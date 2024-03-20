@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+
+/* Barra Nav  */
+
+.barranav{
+    display: flex;
+    justify-content: space-between;
+    background-color:black ;
+    padding: 20px;
+    box-shadow: rgb(107, 107, 107) 0px 3px 8px;
+    
+}
+
+.homeicon img{
+    width: 35px;
+    margin-top: 50px;
+
+}
+
+.login img{
+    width: 35px;
+    margin-top: 50px;
+}
+
+.bn2{
+    display: flex;
+    justify-content: center;
+}
+
+.barranav2{
+    background-color:#FF7417 ;
+    padding: 20px;
+    width: 600px;
+    box-shadow: rgb(107, 107, 107) 0px 3px 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+   list-style: none;
+   font-size: 20px;
+   
+}
+
+li a{
+   color: black;
+   text-decoration: none;
+
+}
+
+.bn2 li a:hover{
+    border: solid;
+    border-color: black;
+    border-top: 0px;
+    border-left:0px ;
+    border-right: 0px;
+}
+
+/* Fim barra nav */
+
+/* Incio conteudo */
+
+
+
+
+/* Fim Conteúdo */
+
+/* Icones de redes socias */
+
+figure, figure img{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5px;
+    z-index: 100;
+    bottom: 15px;
+}
+
+/* Fim icones de redes sociais */
+
+/* Inicio Rodapé */
+
+footer{
+    background-color: black;
+    height: 350px;
+    width: 100%;;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#logo1{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 80px;
+}
+
+
+.col1 h3{
+    color: white;
+}
+
+.col1 p{
+    color: white;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col1 img{
+    width: 30px;
+    margin: 0px 2px 0px 2px;
+}
+
+
+/* Fim Rodapé */
